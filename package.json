@@ -21,7 +21,7 @@
     "preversion": "npm run format && npm run test:coverage"
   },
   "dependencies": {
-    "resend": "^4.0.0"
+    "resend": "^6.26.0"
   },
   "peerDependencies": {
     "nodemailer": "^7.0.11 || ^8.0.0"
