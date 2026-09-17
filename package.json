@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "node_modules/tsgo/bin/tsc --noEmit --incremental false",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "format": "prettier --write .",
@@ -32,8 +32,9 @@
     "@types/nodemailer": "^7.0.11",
     "@vitest/coverage-v8": "^4.0.18",
     "prettier": "^3.2.5",
+    "tsgo": "npm:typescript@7.0.2",
     "tsup": "^8.0.2",
-    "typescript": "^5.3.3",
+    "typescript": "6.0.3",
     "vitest": "^4.0.18"
   },
   "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017"
