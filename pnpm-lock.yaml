@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^4.3.0
-        version: 4.3.0(prettier@3.8.1)
+        version: 4.3.0(prettier@3.9.8)
       '@types/node':
         specifier: ^22.0.0
         version: 22.19.13
@@ -29,7 +29,7 @@ importers:
         version: 4.0.18(vitest@4.0.18(@types/node@22.19.13))
       prettier:
         specifier: ^3.2.5
-        version: 3.8.1
+        version: 3.9.8
       tsgo:
         specifier: npm:typescript@7.0.2
         version: typescript@7.0.2
@@ -867,8 +867,8 @@ packages:
     resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.8.1:
-    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1267,7 +1267,7 @@ snapshots:
   '@react-email/render@1.1.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       html-to-text: 9.0.5
-      prettier: 3.8.1
+      prettier: 3.9.8
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       react-promise-suspense: 0.3.4
@@ -1354,7 +1354,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.8.1)':
+  '@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.9.8)':
     dependencies:
       '@babel/generator': 7.17.7
       '@babel/parser': 7.29.0
@@ -1362,7 +1362,7 @@ snapshots:
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
       lodash: 4.17.23
-      prettier: 3.8.1
+      prettier: 3.9.8
     transitivePeerDependencies:
       - supports-color
 
@@ -1731,7 +1731,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier@3.8.1: {}
+  prettier@3.9.8: {}
 
   react-dom@19.2.4(react@19.2.4):
     dependencies:
